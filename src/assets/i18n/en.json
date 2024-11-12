@@ -12,8 +12,7 @@
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "In <span class='underline'>1 years of experience</span> I have covered many roles: <span class='underline'>Systems Analyst</span>, <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Technical Lead</span>. I love contributing my knowledge to create new things that help solve problems.",
-    "My capabilities also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
+    "During my 1 year of experience, I have held many roles: <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span>. I like to contribute my knowledge to create new things that help solve problems.",
     "I also program things for my personal use, whether for hobby or utility.",
     "Some of the technologies I have trained and worked with include (but are not limited to):"
   ],
