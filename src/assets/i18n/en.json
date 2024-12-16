@@ -7,14 +7,12 @@
   "Header.cvName": "IslombekCV.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I have <span class='underline'>1 years of experience</span> developing systems, interfaces and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>.NET</span> and <span class='underline'>Angular</span>, applying good practices and development standards.",
+  "Banner.Description": "My main goal is to <span class='underline'>strive for excellence</span> in my work. Every task, every line of code, and every project represents a new opportunity for me. Through these opportunities, I aim for <span class='underline'>continuous growth</span> by improving myself and achieving better results. For me, excellence is not about achieving perfection but striving to move forward every day. My life motto is: <span class='underline'>“Once you start walking the path, the way becomes clear!”</span>. This motto inspires me to take bold steps in any situation and continue growing on my journey.",
   "Banner.ActionBtn": "Say Hi",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "During my 1 year of experience, I have held many roles: <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span>. I like to contribute my knowledge to create new things that help solve problems.",
-    "I also program things for my personal use, whether for hobby or utility.",
-    "Some of the technologies I have trained and worked with include (but are not limited to):"
+    "During my one-year experience, I have had the opportunity to work in various roles as both a <span class='underline'>backend</span> and <span class='underline'>frontend</span> developer. Throughout my work, I frequently use <span class='underline'>.NET</span> and <span class='underline'>Angular</span> technologies. Programming is not only my job but also my personal interest. It allows me to strengthen my knowledge and gain new experiences. I am always ready to learn new technologies and apply them in real-world projects."
   ],
 
   "Experience.Title": "Experience",
@@ -24,18 +22,10 @@
       "Title": ".NET Developer",
       "Date": "Dec 2023 - Current",
       "Description": [
-        "Contributed to back-end experience and collaborated on APIs.",
-        "Designed and maintained SQL databases, including complex queries, stored procedures, and triggers for data-driven web applications.",
-        "Handled special projects designated by senior developer."
-      ]
-    },
-    {
-      "Tab": "Freelancer",
-      "Title": "Freelancer",
-      "Date": "Oct 2023 - Dec 2023",
-      "Description": [
-        "Continuous improvements implementation, working on frontend and backend.",
-        "Process automation with data structures."
+        "Integrated user interfaces and backend systems.",
+        "Developed RESTful APIs for data exchange.",
+        "Set up CI/CD pipelines via Azure and deployed the application to an IIS server.",
+        "Monitored system performance using Application Insights, tracking real-time system efficiency."
       ]
     }
   ],
@@ -45,7 +35,7 @@
   "FeatureProjects.Projects": [
     {
       "Title": "CarAccounting",
-      "Description": "This project is designed to help users manage and track their vehicle-related expenses. It enables users to monitor fuel consumption, service costs, and other expenditures associated with their vehicles.",
+      "Description": " This project is designed to help users manage and track their car-related expenses. It allows users to monitor fuel consumption, service costs, and other vehicle-related expenditures.",
       "imgs": [
         "assets/images/CarAccounting/History.png",
         "assets/images/CarAccounting/Refuelling.png",
@@ -58,13 +48,15 @@
     },
     {
       "Title": "WebTotalCommander",
-      "Description": "This project is an online file management tool that replicates the functionalities of traditional file managers in a browser environment. Designed for ease of use, it allows users to manage their files and directories seamlessly through a web interface.",
+      "Description": "WebTotalCommander is a browser-based file manager that allows users to manage files online. It provides an easy-to-use web interface for seamless file management. The project offers an interface that enables users to efficiently manage files and directories.",
       "imgs": [
-        "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
-        "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
-        "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+        "assets/images/WebTotalCommander/TotalCommander1.png",
+        "assets/images/WebTotalCommander/TotalCommander2.png",
+        "assets/images/WebTotalCommander/TotalCommander3.png",
+        "assets/images/WebTotalCommander/TotalCommander4.png",
+        "assets/images/WebTotalCommander/TotalCommander5.png",
+        "assets/images/WebTotalCommander/TotalCommander6.png",
+        "assets/images/WebTotalCommander/TotalCommander7.png"
       ],
       "Technologies": [".NET", "Angular", "CSS", "Kendo UI"]
     }

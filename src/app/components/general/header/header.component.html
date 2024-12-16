@@ -1,7 +1,7 @@
 <nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
     <div class="container">
-        <a class="navbar-brand text-light" [routerLink]="'inicio'">
-            <img src='assets/images/logo.png' width='25' />
+        <a class="navbar-brand text-light" [routerLink]="'Islombek'">
+            <!-- <img src='assets/images/logo.png' width='25' /> -->
         </a>
         <ul ngbNav #nav="ngbNav" class="menu-ul">
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
@@ -31,14 +31,14 @@
                         <img *ngIf='languageFormControl.value == "en"' width="20px" src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
                         <span *ngIf='languageFormControl.value == "en"' class="flag-text">English</span>
 
-                        <img *ngIf='languageFormControl.value == "es"' width="20px" src="https://www.worldometers.info/img/flags/sp-flag.gif" alt="Español">
-                        <span *ngIf='languageFormControl.value == "es"' class="flag-text">Español</span>
+                        <img *ngIf='languageFormControl.value == "uz"' width="20px" src="https://www.worldometers.info/img/flags/uz-flag.gif" alt="Uzbek">
+                        <span *ngIf='languageFormControl.value == "uz"' class="flag-text">Uzbek</span>
                         <svg class='arrow-language' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
                     </div>
                     <div ngbDropdownMenu aria-labelledby="dropdownForm1">
-                        <div (click)='changeLanguage("es")' style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;' class="language-container language-container-selector active" [class.active]='languageFormControl.value == "es"'>
-                            <img width="20px" src="https://www.worldometers.info/img/flags/sp-flag.gif" alt="Español">
-                            <span class="flag-text">Español</span>
+                        <div (click)='changeLanguage("uz")' style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;' class="language-container language-container-selector active" [class.active]='languageFormControl.value == "uz"'>
+                            <img width="20px" src="https://www.worldometers.info/img/flags/uz-flag.gif" alt="Uzbek">
+                            <span class="flag-text">Uzbek</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2 arrow-active" viewBox="0 0 16 16">
                                 <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                               </svg>
@@ -88,9 +88,9 @@
                       </li>
                       <li>
                             <div class="language-container">
-                                <div (click)='changeLanguage("es")' style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;' class="language-container language-container-selector active" [class.active]='languageFormControl.value == "es"'>
-                                    <img src="https://www.worldometers.info/img/flags/sp-flag.gif" alt="Español">
-                                    <span class="flag-text">Español</span>
+                                <div (click)='changeLanguage("uz")' style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;' class="language-container language-container-selector active" [class.active]='languageFormControl.value == "uz"'>
+                                    <img src="https://www.worldometers.info/img/flags/uz-flag.gif" alt="Uzbek">
+                                    <span class="flag-text">Uzbek</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2 arrow-active" viewBox="0 0 16 16">
                                         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
                                       </svg>

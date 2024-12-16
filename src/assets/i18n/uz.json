@@ -1,0 +1,118 @@
+{
+    "Header.Item1": "Men Haqimda",
+    "Header.Item2": "Tajriba",
+    "Header.Item3": "Proyektlar",
+    "Header.Item4": "Kontakt",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "IslombekCV.pdf",
+  
+    "Banner.Pretitle": "Salom! Mening ismim",
+    "Banner.Description": "Mening asosiy maqsadim – o‘z ishimda <span class='underline'>mukammallikka intilish</span>. Har bir vazifa, har bir kod satri va har bir loyiha men uchun yangi imkoniyatdir. Bu imkoniyatlar orqali o‘z ustimda ishlash va natijalarni yaxshilash yo‘lida <span class='underline'>doimiy rivojlanishni</span> maqsad qilganman. Men uchun mukammallik – bu idealga erishish emas, balki har kuni oldinga intilishdir. Hayotdagi shiorim: <span class='underline'>“Yo‘lda yurishni boshlasang, yo‘l ko‘rinadi!”</span>. Bu shior menga har qanday vaziyatda dadil qadam tashlash va o‘sish yo‘lida davom etish uchun kuch bag‘ishlaydi.",
+    "Banner.ActionBtn": "Salom",
+  
+    "AboutMe.Title": "Men Haqimda",
+    "AboutMe.Paragraphs": [
+      "1 yillik tajribam davomida <span class='underline'>backend</span> va <span class='underline'>frontend</span> dasturchi sifatida turli rollarda ishlash imkoniga ega bo‘ldim. Ish davomida ko‘pincha <span class='underline'>.NET</span> va <span class='underline'>Angular</span> texnologiyalaridan foydalanaman. Dasturlash nafaqat mening ishim, balki shaxsiy qiziqishim hamdir. Bu menga bilimlarimni mustahkamlash va yangi tajribalar orttirish uchun imkon beradi. Har doim yangi texnologiyalarni o‘rganishga va ularni real loyihalarda qo‘llashga tayyorman."
+    ],
+  
+    "Experience.Title": "Tajriba",
+    "Experience.Jobs": [
+      {
+        "Tab": "Anjir team",
+        "Title": ".NET Developer",
+        "Date": "Dec 2023 - Hozirgacha",
+        "Description": [
+          "Foydalanuvchi interfeysi va backend tizimlarini integratsiya qilganman.",
+          "Ma’lumotlar almashinuvi uchun RESTful API yaratganman.",
+          "Azure orqali CI/CD jarayonlarini tashkil etganman, va deploymentni IIS serverga amalga oshirganman.",
+          "Application Insights orqali tizimning ishlashini monitoring qilib, real vaqt rejimida tizimning samaradorligini kuzatganman."
+        ]
+      }
+    ],
+  
+    "FeatureProjects.Title": "Mening Proyektlarim",
+    "FeatureProjects.Label": "Tanlangan loyiha",
+    "FeatureProjects.Projects": [
+      {
+        "Title": "CarAccounting",
+        "Description": "WebTotalCommander - bu brauzerda ishlaydigan fayl menejeri. U foydalanuvchilarga onlayn fayllarni boshqarishga imkon beradi va ularni web-interfeysi orqali oson boshqarish imkonini yaratadi. Loyihada foydalanuvchilarga fayllar va kataloglarni qulay boshqarish uchun interfeys taklif etiladi.",
+        "imgs": [
+          "assets/images/CarAccounting/History.png",
+          "assets/images/CarAccounting/Refuelling.png",
+          "assets/images/CarAccounting/Service.png",
+          "assets/images/CarAccounting/Expense.png",
+          "assets/images/CarAccounting/AddVehicle.png",
+          "assets/images/CarAccounting/DeleteCar.png"
+        ],
+        "Technologies": [".NET", "Angular", "LESS", "Angular Material", "NgRx"]
+      },
+      {
+        "Title": "WebTotalCommander",
+        "Description": "Ushbu loyiha brauzer muhitida an’anaviy fayl menejerlarining funksiyalarini takrorlaydigan onlayn fayllarni boshqarish vositasidir. U foydalanuvchilarning qulayligi uchun yaratilgan bo‘lib, veb-interfeys orqali fayllar va kataloglarni muammosiz boshqarish imkonini beradi.",
+        "imgs": [
+          "assets/images/WebTotalCommander/TotalCommander1.png",
+          "assets/images/WebTotalCommander/TotalCommander2.png",
+          "assets/images/WebTotalCommander/TotalCommander3.png",
+          "assets/images/WebTotalCommander/TotalCommander4.png",
+          "assets/images/WebTotalCommander/TotalCommander5.png",
+          "assets/images/WebTotalCommander/TotalCommander6.png",
+          "assets/images/WebTotalCommander/TotalCommander7.png"
+        ],
+        "Technologies": [".NET", "Angular", "CSS", "Kendo UI"]
+      }
+    ],
+  
+    "OtherProjects.Title": "Ko'proq Proyektlar",
+    "OtherProjects.Projects": [
+      {
+        "Title": "Hands Game",
+        "Description": "Extended rock-paper-scissors game. A personal project developed in Angular where you play randomly against the machine. It features the use of services, interfaces, and components.",
+        "imgs": ["assets/images/hands-game.png"],
+        "ghLink": "https://github.com/andresjosehr/hands-game",
+        "demoLink": "https://projects.andresjosehr.com/hands-game",
+        "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+      },
+      {
+        "Title": "Countries Viewer",
+        "Description": "Interface that consumes a countries API where you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+        "imgs": ["assets/images/countries-viewer.png"],
+        "ghLink": "https://github.com/andresjosehr/countries-viewer",
+        "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+        "Technologies": ["Angular", "RxJS", "SASS", "API"]
+      },
+      {
+        "Title": "Four Card Feature Section",
+        "Description": "A single page with a minimalist design listing 4 features in 4 cards. Entry animations are used with Angular animations.",
+        "ghLink": "https://github.com/andresjosehr/four-card-feature-section",
+        "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
+        "Technologies": ["Angular", "SASS", "CSS GRID"]
+      },
+      {
+        "Title": "Social Proof Section",
+        "Description": "Personal project of a page designed from a design made in Figma. Angular was used for development along with SASS and CSS GRID.",
+        "ghLink": "https://github.com/andresjosehr/social-proof-section",
+        "demoLink": "https://projects.andresjosehr.com/social-proof-section",
+        "Technologies": ["Angular", "CSS GRID", "GIT"]
+      },
+      {
+        "Title": "FAQ Accordion Card",
+        "Description": "Frequently asked questions accordion with logic and animations made in Angular.",
+        "ghLink": "https://github.com/andresjosehr/faq-accordion",
+        "demoLink": "https://projects.andresjosehr.com/faq-accordion",
+        "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+      },
+      {
+        "Title": "Profile Card",
+        "Description": "Simple design of a page featuring a profile card with basic information of a person.",
+        "ghLink": "https://github.com/andresjosehr/profile-card-component",
+        "demoLink": "https://projects.andresjosehr.com/profile-card-component",
+        "Technologies": ["Angular", "SASS", "GIT"]
+      }
+    ],
+  
+    "Contact.Pretitle": "Va... Endi?",
+    "Contact.Title": "Salom!",
+    "Contact.Content": "Agar siz yangi imkoniyatlarni muhokama qilmoqchi bo'lsangiz, men sizdan xursand bo'laman. Menga yozing, men sizning xabaringizni ko'rishim bilanoq javob beraman.",
+    "Contact.Btn": "Men bilan bog'laning"
+  }
+  
